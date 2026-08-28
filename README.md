@@ -74,6 +74,13 @@ The dashboard includes filters for:
 
 These filters allow users to dynamically explore the information and compare logistics performance across different scenarios.
 
+## 🎥 Interactive Dashboard Demo
+
+The following preview demonstrates how the dashboard responds to interactive filters and allows users to explore logistics performance dynamically.
+
+![Power BI Dashboard Demo](assets/dashboard-demo.gif)
+
+
 ## 🧩 Data Model
 
 The Power BI model connects logistics, customer, order, billing, driver, and return data to support interactive analysis across the dashboard.
@@ -111,16 +118,21 @@ The original Power BI project is available in this repository:
 
 It can be downloaded and opened using Microsoft Power BI Desktop.
 
-## 🚀 Planned Improvements
+## 🚀 Roadmap
 
-Future improvements for this repository include:
+### Completed
 
-- Add the Power BI data model diagram.
-- Add an animated dashboard demo.
-- Convert the project to Power BI Project (`.pbip`) format.
-- Add source control-friendly Power BI project files.
-- Implement CI/CD validation using GitHub Actions.
-- Explore automated deployment to Power BI Service / Microsoft Fabric.
+- ✅ Professional project documentation.
+- ✅ Dashboard preview.
+- ✅ Power BI data model documentation.
+- ✅ Interactive dashboard demo.
+
+### Next Steps
+
+- ⏳ Convert the project to Power BI Project (`.pbip`) format.
+- ⏳ Add source control-friendly Power BI project files.
+- ⏳ Implement CI validation using GitHub Actions.
+- ⏳ Explore automated deployment to Power BI Service / Microsoft Fabric.
 
 ## 👨‍💻 Author
 
