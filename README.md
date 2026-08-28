@@ -76,9 +76,9 @@ These filters allow users to dynamically explore the information and compare log
 
 ## 🧩 Data Model
 
-The Power BI model combines logistics, customer, order, billing, driver, and return information to support the dashboard analysis.
+The Power BI model connects logistics, customer, order, billing, driver, and return data to support interactive analysis across the dashboard.
 
-> A data model diagram will be added to this section.
+![Power BI Data Model](docs/data-model.png)
 
 ## 🛠️ Tools & Technologies
 
