@@ -1,58 +1,129 @@
-Logistics \& Billing Analytics Dashboard – Power BI
+# 🚚 Logistics & Billing Analytics Dashboard
 
-📌 Project Overview
+Power BI dashboard designed to analyze logistics operations, billing performance, delivery delays, returns, customers, and driver efficiency.
 
+![Dashboard Overview](assets/dashboard-overview.png)
 
+## 📌 Project Overview
 
-This Power BI project analyzes logistics and billing operations, focusing on:
+This project analyzes logistics and billing data to provide a clear view of delivery performance and product returns.
 
-Driver performance (motoristas)
+The dashboard helps identify operational issues such as delayed deliveries, return causes, driver performance, and revenue distribution by customer.
 
-Returns analysis
+The goal is to transform operational data into actionable business insights that can support better logistics decisions.
 
-Order status tracking
+## 🎯 Business Questions
 
-Customer billing distribution
+The dashboard was designed to answer questions such as:
 
-The dashboard provides actionable insights to improve delivery efficiency, reduce returns, and optimize client revenue distribution.
+- Which drivers have the highest number of delayed deliveries?
+- What percentage of orders are delivered on time?
+- What are the main causes of product returns?
+- Which customers generate the highest revenue?
+- Which drivers are associated with more product returns?
+- How do delivery results change by period and location?
 
+## 📊 Key Performance Indicators
 
+The dashboard includes the following KPIs:
 
-🎯 Business Objectives
+- 💰 Total Revenue
+- 📦 Total Orders
+- 🚚 Total Drivers
+- ⏳ Delayed Deliveries
+- ✅ On-Time Deliveries
+- 🔄 Return Reasons
+- 👤 Returns by Driver
+- 🏢 Revenue by Customer
 
+## 📈 Dashboard Analysis
 
+### Order Status
 
-This dashboard answers key operational questions:
+The dashboard compares delayed orders against deliveries completed within the expected timeframe.
 
-Which drivers have the highest delayed deliveries?
+This allows the user to quickly identify the overall logistics performance.
 
-What are the main causes of product returns?
+### Driver Performance
 
-What percentage of orders are delayed vs on time?
+Deliveries can be analyzed by driver to identify those with the highest number of delayed orders.
 
-Which clients generate the highest revenue?
+This information can support operational reviews and help detect recurring delivery problems.
 
+### Return Analysis
 
+Product returns are classified by reason, including:
 
-Is there a correlation between driver performance and returns?
+- Wrong product
+- Damaged product
+- Customer regret
+- Orders without returns
 
+The dashboard also shows the distribution of return reasons for each driver.
 
+### Customer Revenue
 
-📊 Key Metrics
+Billing information is analyzed by customer, making it possible to identify which clients generate the highest revenue.
 
+## 🔎 Interactive Filters
 
+The dashboard includes filters for:
 
-💰 Total Revenue (Total Facturado)
+- Period
+- Location
 
-📦 Total Orders
+These filters allow users to dynamically explore the information and compare logistics performance across different scenarios.
 
-🚚 Total Drivers
+## 🧩 Data Model
 
-⏳ Delayed vs On-Time Orders
+The Power BI model combines logistics, customer, order, billing, driver, and return information to support the dashboard analysis.
 
-🔄 Return Reasons Breakdown
+> A data model diagram will be added to this section.
 
-👤 Driver-level return distribution
+## 🛠️ Tools & Technologies
 
-🏢 Revenue by client
+- Microsoft Power BI
+- Power Query
+- DAX
+- Data Modeling
+- Data Visualization
+- Business Intelligence
+- Git
+- GitHub
 
+## 📂 Repository Structure
+
+```text
+PowerBILogistic/
+├── FacturacionLogistica.pbix
+├── README.md
+├── assets/
+│   └── dashboard-overview.png
+└── docs/
+    └── data-model.png
+```
+
+## 📁 Power BI File
+
+The original Power BI project is available in this repository:
+
+`FacturacionLogistica.pbix`
+
+It can be downloaded and opened using Microsoft Power BI Desktop.
+
+## 🚀 Planned Improvements
+
+Future improvements for this repository include:
+
+- Add the Power BI data model diagram.
+- Add an animated dashboard demo.
+- Convert the project to Power BI Project (`.pbip`) format.
+- Add source control-friendly Power BI project files.
+- Implement CI/CD validation using GitHub Actions.
+- Explore automated deployment to Power BI Service / Microsoft Fabric.
+
+## 👨‍💻 Author
+
+**Cristiam Sanchez**
+
+GitHub: [CristiamSanchez](https://github.com/CristiamSanchez)
